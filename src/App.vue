@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/destiny-2-icon.jpg" />
-    <HelloWorld msg="Destiny News" />
+    <img alt="Destiny logo" src="./assets/destiny-2-icon.jpg" />
+    <h1>{{ title }}</h1>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "app",
-  components: {
-    HelloWorld
-  }
+  components: {},
+  data() {
+    return {
+      title: "Destiny News"
+    };
+  },
+  methods: {}
 };
 </script>
 
